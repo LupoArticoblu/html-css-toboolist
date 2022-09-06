@@ -80,7 +80,18 @@ li::before{
   border-radius: 50% 20%;
   margin: 5px;
   padding: 2px;
+}
 
+li::after{
+  content: 'Editorial';
+  margin-left: 5px;
+  padding: 2px;
+  font-size: 10px;
+  border: 2px solid rgb(71, 152, 218);
+  background-color: rgb(71, 152, 218);
+  color: aliceblue;
+  border-radius: 20px;
+  
 }
 
 .no::before{
