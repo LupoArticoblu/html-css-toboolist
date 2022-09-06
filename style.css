@@ -99,3 +99,40 @@ li::after{
   border-color: red;
   color: red;
 }
+
+.no::after{
+  content: 'Mobile';
+  margin-left: 5px;
+  padding: 2px;
+  font-size: 10px;
+  border: 2px solid rgb(240, 161, 58);
+  background-color: rgb(240, 161, 58);
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.su::after{
+  content: 'Website';
+  margin-left: 5px;
+  padding: 2px;
+  font-size: 10px;
+  border: 2px solid rgb(243, 19, 123);
+  background-color: rgb(243, 19, 123);
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.pu::after{
+  content: 'Recluting';
+  margin-left: 5px;
+  padding: 2px;
+  font-size: 10px;
+  border: 2px solid rgb(28, 168, 46);
+  background-color: rgb(28, 168, 46);
+  color: aliceblue;
+  border-radius: 20px;
+}
+
+.bo::after{
+  content: none;
+}
